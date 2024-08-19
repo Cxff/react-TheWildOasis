@@ -65,7 +65,7 @@ const StyledButton = styled.button`
   }
 `;
 
-const MenusContext = createContext();
+const MenusContext = createContext(undefined);
 
 function Menus({ children }) {
   const [openId, setOpenId] = useState("");
